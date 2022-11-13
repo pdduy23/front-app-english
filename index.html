@@ -18,6 +18,15 @@
 
 <body style="width: 100%;">
 
+    <input type="button" onclick="addWord()" value="Add Word" />
+
+    <input type="text" placeholder="Word" id="textWord" />
+    <input type="text" placeholder="Define" id="textDefine" />
+
+    <br />
+    <br />
+
+
     <input type="button" onclick="getWord()" value="Get Word" />
 
     <input type="button" onclick="getDefine()" value="Get Define" />
@@ -26,7 +35,6 @@
         <tr id="word"></tr>
         <tr id="define"></tr>
     </table>
-    <h2 id="define"></h2>
 
     <script src="./js/index.js"></script>
 </body>
