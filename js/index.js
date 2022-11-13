@@ -37,7 +37,7 @@ const addWord = async () => {
         "word": textWord.value.toString(),
     }
 
-    await fetch('http://localhost:3000/api/add', {
+    await fetch('https://server-app-english.onrender.com/api/add', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
