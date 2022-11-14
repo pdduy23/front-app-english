@@ -13,7 +13,7 @@ const getWord = async () => {
     let text = ""
 
     for (let i = 0; i < word.length; i++) {
-        text = text + `<td>${word[i].word}</td><br/>`
+        text = text + `<td><h1>${word[i].word}</h1></td><br/>`
     }
     document.getElementById("word").innerHTML = text
     document.getElementById("define").innerHTML = ""
@@ -23,7 +23,7 @@ const getDefine = () => {
     let text = ""
 
     for (let i = 0; i < word.length; i++) {
-        text = text + `<td>${word[i].define}</td><br/>`
+        text = text + `<td><h1>${word[i].define}</h1></td><br/>`
     }
     document.getElementById("define").innerHTML = text
 }
